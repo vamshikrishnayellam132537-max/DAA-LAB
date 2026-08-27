@@ -109,7 +109,9 @@ From this practical, we learned that both iterative and recursive methods can be
 
 
 
-PRACTICAL 7: Summary :
+PRACTICAL 7: 
+
+Summary :
 
 The Making Change Problem was implemented using the Dynamic Programming technique. The main objective of the program is to find the minimum number of coins required to make a given amount. The program uses a dp array to store the minimum coins needed for each amount from 0 to the given amount. By using previously calculated values, repeated calculations are avoided and the solution becomes more efficient.
 
@@ -119,3 +121,16 @@ Conclusion :
 
 The Dynamic Programming approach provides an efficient solution to the Making Change Problem. It follows the concept of optimal substructure and overlapping subproblems. By storing the solutions of smaller amounts, the program can quickly calculate the solution for the required amount. This method is more efficient than checking all possible combinations. Therefore, Dynamic Programming is a useful technique for solving optimization problems such as the minimum coin change problem.
 
+
+
+PRACTICAL 5: 
+
+Summary :
+
+The 0/1 Knapsack Problem was implemented using the Dynamic Programming technique. The main objective of the program is to find the maximum value that can be obtained by selecting items without exceeding the given knapsack capacity. The program uses a dp array to store the maximum value possible for each capacity. By using previously calculated values, repeated calculations are avoided and the solution becomes more efficient.
+
+Time Complexity: O(n × capacity)
+Space Complexity: O(n × capacity)
+
+Conclusion :
+The Dynamic Programming approach provides an efficient solution to the 0/1 Knapsack Problem. It follows the concept of optimal substructure and overlapping subproblems. By storing the solutions of smaller capacities, the program can quickly calculate the maximum value for the required capacity. This method is more efficient than checking all possible combinations. Therefore, Dynamic Programming is a useful technique for solving optimization problems such as the 0/1 Knapsack Problem.
