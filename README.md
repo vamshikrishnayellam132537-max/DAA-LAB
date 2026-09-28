@@ -141,6 +141,19 @@ Summary
 
 Matrix Chain Multiplication uses Dynamic Programming and a matrix to find the optimal order of multiplying matrices. It avoids unnecessary calculations by storing the minimum cost of smaller matrix chains.
 
+
+PRACTICAL-8
+
+Summary
+
+This C++ program implements **DFS (Depth First Search)** and **BFS (Breadth First Search)** for traversing a graph using an **adjacency matrix**. DFS visits a vertex and recursively explores its unvisited adjacent vertices. BFS uses a queue to visit vertices level by level. The `visited` array ensures that each vertex is visited only once.
+
+Conclusion
+
+The program successfully performs **DFS and BFS graph traversal** from a given starting vertex. DFS is useful for exploring a graph deeply, while BFS is useful for exploring a graph level by level. Both methods are important graph traversal techniques used in **Data Structures and Algorithms**.
+
+
+
 Conclusion
 
 The Matrix Chain Multiplication problem demonstrates how Dynamic Programming can optimize matrix multiplication. By checking different possible parenthesizations and storing their minimum costs, we can find the most efficient multiplication order with O(n³) time complexity.
