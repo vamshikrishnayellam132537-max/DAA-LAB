@@ -151,3 +151,14 @@ This C++ program implements **DFS (Depth First Search)** and **BFS (Breadth Firs
 Conclusion
 
 The program successfully performs DFS and BFS graph traversal from a given starting vertex. DFS is useful for exploring a graph deeply, while BFS is useful for exploring a graph level by level. Both methods are important graph traversal techniques used in **Data Structures and Algorithms.
+
+
+PRACTICAL-9
+Summary
+
+Prim’s Algorithm is a **greedy algorithm** used to find the **Minimum Spanning Tree (MST)** of a connected, weighted, undirected graph. It starts from any vertex and repeatedly selects the smallest-weight edge that connects a selected vertex to an unselected vertex. The process continues until all vertices are included in the spanning tree. The implemented C++ program uses an adjacency matrix to find the MST and calculate its minimum total cost.
+
+ Conclusion
+
+Prim’s Algorithm successfully finds the **Minimum Spanning Tree** by connecting all vertices with the minimum possible total edge weight while avoiding cycles. It is simple and useful for solving network design problems such as connecting computers, roads, or communication systems. The given implementation has a **time complexity of O(V²)** and demonstrates the practical working of the algorithm.
+
