@@ -150,10 +150,4 @@ This C++ program implements **DFS (Depth First Search)** and **BFS (Breadth Firs
 
 Conclusion
 
-The program successfully performs **DFS and BFS graph traversal** from a given starting vertex. DFS is useful for exploring a graph deeply, while BFS is useful for exploring a graph level by level. Both methods are important graph traversal techniques used in **Data Structures and Algorithms**.
-
-
-
-Conclusion
-
-The Matrix Chain Multiplication problem demonstrates how Dynamic Programming can optimize matrix multiplication. By checking different possible parenthesizations and storing their minimum costs, we can find the most efficient multiplication order with O(n³) time complexity.
+The program successfully performs DFS and BFS graph traversal from a given starting vertex. DFS is useful for exploring a graph deeply, while BFS is useful for exploring a graph level by level. Both methods are important graph traversal techniques used in **Data Structures and Algorithms.
