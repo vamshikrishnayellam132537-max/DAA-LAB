@@ -137,28 +137,40 @@ The Dynamic Programming approach provides an efficient solution to the 0/1 Knaps
 
 PRACTICAL-6
 
-Summary
+Summary:
 
 Matrix Chain Multiplication uses Dynamic Programming and a matrix to find the optimal order of multiplying matrices. It avoids unnecessary calculations by storing the minimum cost of smaller matrix chains.
 
 
 PRACTICAL-8
 
-Summary
+Summary:
 
 This C++ program implements **DFS (Depth First Search)** and **BFS (Breadth First Search)** for traversing a graph using an **adjacency matrix**. DFS visits a vertex and recursively explores its unvisited adjacent vertices. BFS uses a queue to visit vertices level by level. The `visited` array ensures that each vertex is visited only once.
 
-Conclusion
+Conclusion:
 
 The program successfully performs DFS and BFS graph traversal from a given starting vertex. DFS is useful for exploring a graph deeply, while BFS is useful for exploring a graph level by level. Both methods are important graph traversal techniques used in **Data Structures and Algorithms.
 
 
 PRACTICAL-9
-Summary
+Summary:
 
 Prim’s Algorithm is a **greedy algorithm** used to find the **Minimum Spanning Tree (MST)** of a connected, weighted, undirected graph. It starts from any vertex and repeatedly selects the smallest-weight edge that connects a selected vertex to an unselected vertex. The process continues until all vertices are included in the spanning tree. The implemented C++ program uses an adjacency matrix to find the MST and calculate its minimum total cost.
 
- Conclusion
-
+ Conclusion:
+ 
 Prim’s Algorithm successfully finds the **Minimum Spanning Tree** by connecting all vertices with the minimum possible total edge weight while avoiding cycles. It is simple and useful for solving network design problems such as connecting computers, roads, or communication systems. The given implementation has a **time complexity of O(V²)** and demonstrates the practical working of the algorithm.
+
+
+
+PRACTICAL-10
+
+Summary:
+
+Kruskal’s Algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a weighted, connected graph. It sorts all edges in ascending order of their weights and selects the smallest edge that does not form a cycle. The process continues until n − 1 edges are selected for n vertices.
+
+Conclusion:
+
+The C++ program successfully implements Kruskal’s Algorithm to find the Minimum Spanning Tree. It displays the selected edges and calculates the minimum total cost of connecting all vertices without forming any cycles.
 
